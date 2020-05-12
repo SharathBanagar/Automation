@@ -1,0 +1,31 @@
+package com.program.practice;
+
+import java.util.Scanner;
+
+public class Reverse {
+
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner(System.in);
+		String s1 = scan.nextLine();
+		String s2 = "";
+		int n = s1.length();
+		s1.toCharArray();
+		for(int i =(n-1);i>=0;i--)
+		{
+			 s2 = s2+s1.charAt(i);	
+		}
+		System.out.println(s2);
+		
+		if(s1.equals(s2))
+		{
+			System.out.println("palindrome");
+		}
+		else
+		{
+			System.out.println("not a palindrome");
+		}
+
+	}
+
+}

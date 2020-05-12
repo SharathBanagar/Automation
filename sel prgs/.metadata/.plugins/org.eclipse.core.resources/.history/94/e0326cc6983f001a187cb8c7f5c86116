@@ -1,0 +1,17 @@
+package hackerrank;
+
+public class Practice 
+{
+	public static void main(String[] args)
+	{
+	int N = 3;
+	if(N%2!=0)
+    {
+        System.out.print("Weird");
+    }
+	while(3<N<5)
+	{
+		System.out.println("xxx");
+	}
+}
+}

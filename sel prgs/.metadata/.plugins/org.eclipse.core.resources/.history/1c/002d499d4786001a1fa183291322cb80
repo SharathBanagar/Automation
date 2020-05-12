@@ -1,0 +1,76 @@
+package automation;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.sikuli.script.FindFailed;
+import org.sikuli.script.Pattern;
+import org.sikuli.script.Screen;
+
+public class Orange {
+
+	public static void main(String[] args) throws InterruptedException, FindFailed 
+	{
+		WebDriver driver;
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Sharath\\Desktop\\selenium-java-3.141.59\\chromedriver\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		
+		driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login");
+		
+		Thread.sleep(3000);
+		driver.findElement(By.xpath("//input[@id='txtUsername']")).sendKeys("admin");
+		
+		driver.findElement(By.xpath("//input[@id='txtPassword']")).sendKeys("admin123");
+		
+		Thread.sleep(3000);
+		driver.findElement(By.xpath("//input[@id='btnLogin']")).click();
+		
+		Actions action = new Actions(driver);
+		
+		Thread.sleep(5000);
+		
+		
+		action.moveToElement(driver.findElement(By.linkText("PIM"))).build().perform();
+		driver.findElement(By.xpath("//a[@id='menu_pim_addEmployee']")).click();
+		
+		//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		//driver.findElement(By.xpath("/html/body/div[1]/div[3]/div/div[2]/form/fieldset/ol/li[3]/input")).click();
+		//driver.findElement(By.cssSelector("input.duplexBox[name=photofile]")).click();
+		
+		//WebElement button = driver.findElement(By.cssSelector("input.duplexBox[name=photofile]"));
+		
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		
+		/*WebElement button =*/ //driver.findElement(By.id("photofile")).click();
+		/*JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("arguments[0].click();", button);
+		
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		//driver.close();*/
+		
+        String imagesFilepath = "C:\\Users\\Sharath\\Pictures\\Saved Pictures\\";
+        String inputFilepath = "C:\\Users\\Sharath\\Pictures\\Saved Pictures\\";
+        Screen s = new Screen();
+        
+        Pattern fileInputTextBox = new Pattern(imagesFilepath + "textbox.PNG");
+        Pattern openButton = new Pattern(imagesFilepath + "open.PNG");
+        Pattern choosefile = new Pattern(imagesFilepath + "choosefile.PNG");
+        
+        Thread.sleep(3000);
+        s.click(choosefile);
+        s.wait(fileInputTextBox,20);
+        s.type(fileInputTextBox,inputFilepath+"open.PNG");
+        s.click(openButton);
+		
+		
+		
+
+	}
+
+}

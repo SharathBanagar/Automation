@@ -1,0 +1,28 @@
+package selenium;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Facebook {
+
+	public static void main(String[] args) 
+	{
+		try {
+			System.setProperty("webdriver.chrome.driver","C:\\Users\\Sharath\\Desktop\\selenium-java-3.141.59\\chromedriver\\chromedriver.exe");
+			WebDriver driver;
+			driver = new ChromeDriver();
+			driver.manage().deleteAllCookies();
+			driver.manage().window().maximize();
+			
+			Thread.sleep(3000);
+			driver.get("https://www.facebook.com/");
+		} catch (InterruptedException e) 
+		{
+			e.printStackTrace();
+		}
+		
+		
+
+	}
+
+}

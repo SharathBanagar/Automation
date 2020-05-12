@@ -1,0 +1,13 @@
+package hackerrank;
+
+public class Practice 
+{
+	public static void main(String[] args)
+	{
+	int N = 2;
+	if(N%2!=0)
+    {
+        System.out.print("Weird");
+    }
+}
+}

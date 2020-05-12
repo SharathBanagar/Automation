@@ -1,0 +1,93 @@
+package automation;
+
+import java.util.Set;
+
+import org.apache.commons.codec.binary.Base64;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.sikuli.script.FindFailed;
+import org.sikuli.script.Pattern;
+import org.sikuli.script.Screen;
+
+public class Rediff 
+{
+	public static void main(String[] args) throws InterruptedException, FindFailed 
+	{
+		WebDriver driver;
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Sharath\\Desktop\\selenium-java-3.141.59\\chromedriver\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		
+		driver.get("https://webmail.rediffmailpro.com/action/login/infodartmail.com");
+		
+		Thread.sleep(3000);
+		driver.findElement(By.xpath("//input[@name='custom_input']")).sendKeys("sharath.l");
+		
+		Thread.sleep(3000);
+		driver.findElement(By.xpath("//input[@name='passwd']")).sendKeys(String(Base64.decodeBase64("c2F5bXluYW1l")));
+		
+		
+		/*static String decodedString(String password)
+		{
+			byte[] decodeString = Base64.decodeBase64(password);
+			return(new String(decodedString));
+		}
+		
+		*/
+		
+		
+		driver.findElement(By.xpath("//input[@src='//webmail.rediffmailpro.com/icons/rediff_progold/met_go_but.gif']")).click();
+		
+		Thread.sleep(3000);
+		driver.findElement(By.linkText("Go to Inbox")).click();
+		
+		Thread.sleep(3000);
+		driver.findElement(By.xpath("//div[@class='jqiclose ']")).click();
+		//return String;
+		
+		/*Thread.sleep(3000);
+		driver.findElement(By.xpath("//div[@id='rdWriteMailHandle']")).click();
+		
+		String pw = driver.getWindowHandle();
+		
+		Set <String> s = driver.getWindowHandles();
+		
+		for(String i:s)
+		{
+			Thread.sleep(3000);
+			
+			 if(!i.equals(pw)){
+		            driver.switchTo().window(i).manage().window().maximize();
+		            driver.findElement(By.cssSelector("div#rdAttachFileHandle")).click();//
+		            Thread.sleep(1000);
+		            //driver.findElement(By.cssSelector("ul#as-selections-TO_ID")).sendKeys("sharath.l@infodartmail.com");
+		            
+		            String imagesFilepath = "C:\\Users\\Sharath\\Pictures\\Saved Pictures\\";
+		            String inputFilepath = "C:\\Users\\Sharath\\Pictures\\Saved Pictures\\";
+		            Screen p = new Screen();
+		            
+		            Pattern fileInputTextBox = new Pattern(imagesFilepath + "textbox.PNG");
+		            Pattern openButton = new Pattern(imagesFilepath + "open.PNG");
+		            
+		            Thread.sleep(3000);
+		            
+		            p.wait(fileInputTextBox,20);
+		            p.type(fileInputTextBox,inputFilepath+"open.PNG");
+		            p.click(openButton);
+		            */
+			
+		
+			//System.out.println(t);
+		
+		
+
+		
+	}
+
+	private static CharSequence String(byte[] decodeBase64) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

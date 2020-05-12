@@ -1,0 +1,62 @@
+package com.com.testng;
+
+
+
+import org.openqa.selenium.WebDriver;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import org.testng.Assert;
+
+import org.testng.annotations.BeforeClass;
+
+import org.testng.annotations.Test;
+
+
+ 
+
+public class Testng 
+{	
+	
+
+WebDriver driver;
+	
+	
+
+@BeforeClass
+	
+public void openChrome()
+	
+{
+		
+WebDriver driver;
+		
+System.setProperty("webdriver.chrome.driver","C:\\Users\\Sharath\\Desktop\\selenium-java-3.141.59\\chromedriver\\chromedriver.exe");
+		
+driver = new ChromeDriver();
+		
+driver.manage().window().maximize();
+		
+		
+driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login");
+	
+}
+	
+	
+
+@Test
+	public void getTitle()
+	
+{
+		
+String actual = "Orangehrm";
+		
+String expected = driver.getTitle();
+		
+Assert.assertEquals(actual, expected);
+		
+	
+}	
+
+
+}

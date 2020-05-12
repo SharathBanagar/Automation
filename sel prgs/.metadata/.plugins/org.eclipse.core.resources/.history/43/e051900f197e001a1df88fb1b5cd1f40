@@ -1,0 +1,19 @@
+package automation;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Sbi {
+
+	public static void main(String[] args) 
+	{
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Sharath\\Desktop\\selenium-java-3.141.59\\chromedriver\\chromedriver.exe");
+		WebDriver driver;
+		driver = new ChromeDriver();
+		driver.manage().deleteAllCookies();
+		driver.manage().window().maximize();
+		
+		driver.get("https://sbi.co.in/web/student-platform/maturity-value-calculator");
+	}
+
+}

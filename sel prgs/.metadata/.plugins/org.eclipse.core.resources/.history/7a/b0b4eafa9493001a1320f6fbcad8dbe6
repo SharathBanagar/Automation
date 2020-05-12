@@ -1,0 +1,109 @@
+package com.testng.test;
+
+import org.testng.annotations.Test;
+import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeClass;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.sikuli.script.FindFailed;
+import org.sikuli.script.Pattern;
+import org.sikuli.script.Screen;
+
+public class TestNG 
+{
+	
+	WebDriver driver;
+	
+  @BeforeClass
+  public void openChrome() 
+  {
+	  
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Sharath\\Desktop\\selenium-java-3.141.59\\chromedriver\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		
+		driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login");
+	  
+	  //System.out.println("testng");
+  }
+  
+  @Test(priority = 1,groups = "Check Title")
+  public void checkTitle()
+  {
+	  String expected = "OrangeHRM";
+	  String actual = driver.getTitle();
+	  Assert.assertEquals(actual, expected);
+	  System.out.println(actual);
+	  
+  }
+  
+  @Test(priority = 2,groups = "Login")
+  public void login() throws InterruptedException
+  {
+	  Thread.sleep(3000);
+		driver.findElement(By.xpath("//input[@id='txtUsername']")).sendKeys("admin");
+		
+		driver.findElement(By.xpath("//input[@id='txtPassword']")).sendKeys("admin12");
+		
+		Thread.sleep(3000);
+		driver.findElement(By.xpath("//input[@id='btnLogin']")).click();
+		
+		System.out.println(driver.getTitle());
+		
+		String expected = "https://opensource-demo.orangehrmlive.com/index.php/dashboard";
+		String actual = driver.getCurrentUrl();
+		Assert.assertEquals(actual, expected);
+		
+  }
+  
+  @Test(priority = 3,groups = "Add Employee",dependsOnMethods = "login")
+  public void clickAddEmployee() throws InterruptedException
+  {
+	  Actions action = new Actions(driver);
+		
+		Thread.sleep(5000);
+		
+		action.moveToElement(driver.findElement(By.linkText("PIM"))).build().perform();
+		driver.findElement(By.xpath("//a[@id='menu_pim_addEmployee']")).click();
+		
+		String expected = "https://opensource-demo.orangehrmlive.com/index.php/pim/addEmployee";
+		String actual = driver.getCurrentUrl();
+		Assert.assertEquals(actual, expected);
+  }
+  
+  @Test(priority = 4,groups = "Upload file",dependsOnMethods = "login")
+  public void UploadFile() throws InterruptedException, FindFailed
+  {
+	  
+	  driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+	  
+	  String imagesFilepath = "C:\\Users\\Sharath\\Pictures\\Saved Pictures\\";
+      String inputFilepath = "C:\\Users\\Sharath\\Pictures\\Saved Pictures\\";
+      Screen s = new Screen();
+      
+      Pattern fileInputTextBox = new Pattern(imagesFilepath + "textbox.PNG");
+      Pattern openButton = new Pattern(imagesFilepath + "open.PNG");
+      Pattern choosefile = new Pattern(imagesFilepath + "choosefile.PNG");
+      
+      Thread.sleep(3000);
+      s.click(choosefile);
+      s.wait(fileInputTextBox,20);
+      s.type(fileInputTextBox,inputFilepath+"open.PNG");
+      s.click(openButton);
+  }
+  
+  @AfterSuite
+  public void closeBrowser()
+  {
+	  System.out.println("closing browser");
+	  driver.close();
+  }
+}
+	

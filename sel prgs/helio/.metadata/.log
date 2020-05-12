@@ -1,0 +1,472 @@
+!SESSION 2020-04-02 11:14:30.481 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:20.965
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/AbstractCapabilities.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.015
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/ImmutableCapabilities.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.030
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/MutableCapabilities.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.046
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/chrome/ChromeOptions.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.062
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/firefox/Executable.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.062
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/firefox/FirefoxBinary$Channel.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.062
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/firefox/FirefoxBinary.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.062
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/firefox/FirefoxDriver.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.077
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/firefox/FirefoxOptions.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.077
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/firefox/GeckoDriverInfo.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.077
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/firefox/XpiDriverService.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.093
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/ie/InternetExplorerOptions.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.093
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/interactions/Actions.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.109
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/interactions/MoveToOffsetAction.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.109
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/interactions/SendKeysAction.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.109
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/interactions/internal/KeysRelatedAction.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.109
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/interactions/internal/MouseAction.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.124
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/io/TemporaryFilesystem.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.124
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/json/BooleanCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.124
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/json/CollectionCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.124
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/json/CommandCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.124
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/json/EnumCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.140
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/json/InstanceCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.140
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/json/JsonInput.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.140
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/json/JsonOutput.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.140
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/json/JsonTypeCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.140
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/json/MapCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.140
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/json/NumberCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.155
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/json/ObjectCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.155
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/json/ResponseCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.155
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/json/SessionIdCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.155
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/json/SimplePropertyDescriptor.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.155
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/json/StaticInitializerCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.155
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/json/StringCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.155
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/json/UriCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.155
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/json/UrlCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.155
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/json/UuidCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.176
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/logging/LogCombiner.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.177
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/logging/LogEntries.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.178
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/logging/LogEntry.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.185
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/net/UrlChecker.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.191
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/remote/AcceptedW3CCapabilityKeys.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.192
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/remote/AddRotatable.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.197
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/remote/DesiredCapabilities.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.203
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/remote/ErrorCodes.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.263
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/remote/ErrorHandler.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.265
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/remote/HandshakeResponse.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.270
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/remote/JsonWireProtocolResponse.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.272
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/remote/NewSessionPayload.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.273
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/remote/ProtocolHandshake$Result.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.275
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/remote/ProtocolHandshake.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.282
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/remote/RemoteWebDriver$RemoteWebDriverOptions.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.285
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/remote/RemoteWebDriverBuilder$Plan.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.287
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/remote/RemoteWebDriverBuilder.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.290
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/remote/RemoteWebElement.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.294
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/remote/W3CHandshakeResponse.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.296
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/remote/html5/AddApplicationCache.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.297
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/remote/html5/AddLocationContext.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.299
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/remote/html5/AddWebStorage.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.304
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/remote/http/HttpMessage.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.307
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/remote/http/W3CHttpCommandCodec.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.309
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/remote/internal/HttpUrlBuilder.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.311
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/remote/internal/OkHttpClient$Factory$1.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.313
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/remote/internal/OkHttpClient.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.315
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/remote/mobile/AddNetworkConnection.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.318
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/remote/session/ChromeFilter.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.319
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/remote/session/EdgeFilter.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.320
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/remote/session/FirefoxFilter.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.322
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/remote/session/InternetExplorerFilter.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.323
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/remote/session/OperaFilter.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.325
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/remote/session/SafariFilter.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.327
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/safari/SafariDriverInfo.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.330
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/safari/SafariOptions.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.331
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/safari/SafariTechPreviewDriverInfo.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.351
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/support/events/EventFiringWebDriver$EventFiringWebElement.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.353
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/support/events/EventFiringWebDriver.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.365
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/support/ui/ExpectedConditions$38.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.366
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/support/ui/ExpectedConditions$39.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.368
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/support/ui/ExpectedConditions$45.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.370
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/support/ui/ExpectedConditions.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.372
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/support/ui/FluentWait.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.374
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/support/ui/Select.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:21.375
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/client-combined-3.141.59.jar|org/openqa/selenium/support/ui/Sleeper.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.070
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/cache/LocalCache$EntrySet.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.080
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/cache/LocalCache$Values.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.085
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/cache/LocalCache.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.095
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/AbstractMapBasedMultimap$AsMap$AsMapEntries.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.102
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/AbstractMapBasedMultimap.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.104
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/AbstractMapBasedMultiset.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.111
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/AbstractTable.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.116
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/ArrayTable$ArrayMap.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.119
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/ArrayTable.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.122
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/CollectCollectors.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.124
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/CollectSpliterators$1.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.127
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/CollectSpliterators$1FlatMapSpliterator.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.130
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/CollectSpliterators$1WithCharacteristics.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.132
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/Collections2$FilteredCollection.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.135
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/Collections2$TransformedCollection.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.138
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/CompactHashMap$EntrySetView.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.145
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/Comparators.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.183
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/HashBiMap$Inverse.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.191
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/ImmutableEnumMap.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.195
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/ImmutableList.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.198
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/ImmutableListMultimap.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.203
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/ImmutableMap.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.206
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/ImmutableMapKeySet.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.209
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/ImmutableMapValues.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.213
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/ImmutableMultimap.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.214
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/ImmutableMultiset$Builder.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.218
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/ImmutableMultiset.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.225
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/ImmutableSet$Indexed.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.231
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/ImmutableSetMultimap.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.233
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/ImmutableSortedAsList.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.235
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/ImmutableSortedMap$1EntrySet$1.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.239
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/ImmutableSortedMap.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.242
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/ImmutableSortedMultiset.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.248
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/ImmutableTable.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.250
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/IndexedImmutableSet.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.253
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/Iterables$1.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.255
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/Iterables$4.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.257
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/Iterables$5.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.268
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/JdkBackedImmutableMap.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.274
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/LinkedHashMultimap.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.285
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/Lists$TransformingRandomAccessList.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.288
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/Lists$TransformingSequentialList.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.308
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/Maps$Accumulator.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.310
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/Maps$AsMapView.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.315
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/Maps$FilteredEntryBiMap.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.321
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/Maps$KeySet.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.325
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/Maps$NavigableAsMapView.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.328
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/Maps$TransformedEntriesMap.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.332
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/Maps$Values.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.335
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/Maps.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.339
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/MoreCollectors.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.341
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/Multimap.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.349
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/Multimaps$Keys.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.357
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/Multimaps.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.360
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/Multiset.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.366
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/Multisets.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.368
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/MutableClassToInstanceMap$2.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.378
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/RegularImmutableBiMap$Inverse.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.390
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/Sets$1.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.392
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/Sets$2.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.395
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/Sets$3.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.398
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/Sets$Accumulator.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.416
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/StandardTable$Row.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.419
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/StandardTable.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.423
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/Streams.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.437
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/collect/Tables.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.488
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/hash/BloomFilter.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.531
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/io/CharSource.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.559
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/primitives/ImmutableDoubleArray$Builder.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.562
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/primitives/ImmutableIntArray$Builder.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.564
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/primitives/ImmutableLongArray$Builder.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2020-04-02 11:17:23.614
+!MESSAGE The Java indexing could not index C:/Users/Sharath/Desktop/selenium-java-3.141.59/libs/guava-25.0-jre.jar|com/google/common/util/concurrent/AtomicLongMap.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
